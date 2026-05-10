@@ -11,11 +11,11 @@ jobs:
     steps:
       - name: Test Phase 
         run: echo "Running"
-     Deploy: 
-       runs-on: ubuntu-latest
-       steps:
-       - name: deploy 
-         run: echo "deploy to prod"
+  Deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy 
+        run: echo "deploy to prod"
       
 
   
