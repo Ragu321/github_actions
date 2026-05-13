@@ -7,4 +7,4 @@ jobs:
       - name: contest varaible
         run: |
           echo "this workfow is triggered by ${{ github.actor }}"
-          echo "this reposistory name is ${{ github.reposistory }}
+          echo "this reposistory name is ${{ github.reposistory }}"
