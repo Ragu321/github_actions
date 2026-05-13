@@ -11,11 +11,11 @@ on:
           - test
           - prod
       artificat_tag:
-         description: choose the tig tag to deploy type: 
-         required: true
+        description: choose the tig tag to deploy type: 
+        required: true
 jobs:
   inputs-demo:
     runs-on: ubuntu-latest
     steps:
       - name: Deply to dev
-        run: echo "deplying to the ${{ inputs.artifacts}} application to ${{ inputs.environment }}"
+        run: echo "deplying to the ${{ inputs.artificat_tag}} application to ${{ inputs.environment }}"
