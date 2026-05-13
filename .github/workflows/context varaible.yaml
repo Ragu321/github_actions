@@ -1,0 +1,10 @@
+name: context varaible
+on: push 
+jobs:
+  context-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: contest varaible
+        run: |
+          echo "this workfow is triggered by ${{ github.actor }}"
+          echo "this reposistory name is ${{ github.reposistory }}
