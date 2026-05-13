@@ -10,9 +10,9 @@ on:
           - dev
           - test
           - prod
-        artificat_tag:
-          description: choose the tig tag to deploy type: 
-          required: true
+      artificat_tag:
+        description: choose the tig tag to deploy type: 
+        required: true
 jobs:
   inputs-demo:
     runs-on: ubuntu-latest
