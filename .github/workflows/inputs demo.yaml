@@ -1,0 +1,14 @@
+name: inputs demo
+on:
+  workflow_dispatch: 
+    inputs:
+      environment:
+      description:
+      required: true
+      default: dev
+jobs:
+  inputs-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deply to dev
+        run: echo "deplying to the application to ${{ inputs.environment }}"
