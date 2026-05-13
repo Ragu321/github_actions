@@ -12,3 +12,5 @@ jobs:
         run: echo  "${{ tojson(github) }}"
       - name: github ref 
         run: echo "${{ github.ref_name }}"
+      - name: print environment varaibles
+        run: print env
