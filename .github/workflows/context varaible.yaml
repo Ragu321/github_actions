@@ -11,4 +11,4 @@ jobs:
       - name: print all variable under github 
         run: echo  "${{ tojson(github) }}"
       - name: github ref 
-        run: echo "${{ github.ref_name }}
+        run: echo "${{ github.ref_name }}"
